@@ -1,0 +1,99 @@
+/* Основное окно */
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #e3f2fd,
+                                stop:1 #f3e5f5);
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #a9c9ff;
+    color: #2c3e50;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #8fb9ff;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #6a9feb;
+}
+
+/* Кнопка "Выйти" */
+#logoutButton {
+    background-color: #f8bbd0;
+}
+
+#logoutButton:hover {
+    background-color: #f48fb1;
+}
+
+/* Кнопка "Добавить показ" */
+#addButton {
+    background-color: #bbdef5;
+}
+
+#addButton:hover {
+    background-color: #a5cff0;
+}
+
+/* Поле поиска */
+QLineEdit {
+    background-color: white;
+    border: 2px solid #c5e0fa;
+    border-radius: 10px;
+    color: #2c3e50;
+}
+
+QLineEdit:focus {
+    border-color: #8fb9ff;
+}
+
+/* Таблица */
+QTableWidget {
+    background-color: white;
+    color: #2c3e50;
+    alternate-background-color: #f8fbff;
+    gridline-color: #e0eefc;
+    border: none;
+    selection-background-color: #d9ebff;
+}
+
+QTableWidget::item {
+    border-bottom: 1px solid #eef4fc;
+}
+
+QTableWidget::item:selected {
+    background-color: #c5e0fa;
+    color: #1a2a3a;
+}
+
+/* Заголовки таблицы */
+QHeaderView::section {
+    background-color: #d9ebff;
+    color: #2c6474;
+    font-weight: bold;
+    border: none;
+}
+
+/* Метка "Билеты пользователей" */
+#textLabel {
+    color: #2c6474;
+    font-weight: bold;
+}
+
+/* Метка с именем пользователя */
+#usernameLabel {
+    color: #4a627a;
+    font-weight: bold;
+}
+
+/* Статусбар */
+QStatusBar {
+    background-color: #e3f2fd;
+    color: #4a627a;
+}

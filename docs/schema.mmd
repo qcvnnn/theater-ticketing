@@ -1,0 +1,11 @@
+erDiagram
+    Theaters ||--o{ Productions : ID_Theater
+    Productions ||--o{ Show_Details : ID_Production
+    Show_Details ||--o{ ShowSeats : ShowDetails_ID
+    Show_Details ||--o{ Tickets : ID_ShowDetails
+    Clients ||--o{ Tickets : ID_Client
+    Clients ||--o{ Reviews : ID_Client
+    Productions ||--o{ Reviews : ID_Productions
+    Troupe ||--o{ Actor_Theater : ID_Actor
+    Theaters ||--o{ Actor_Theater : ID_Theater
+    ShowSeats ||--o{ Tickets : show_and_category

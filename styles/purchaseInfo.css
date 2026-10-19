@@ -1,0 +1,54 @@
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #e3f2fd,
+                                stop:1 #f3e5f5);
+}
+
+QPushButton {
+    background-color: #a9c9ff;
+    color: #2c3e50;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #8fb9ff;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #6a9feb;
+}
+
+#backButton {
+    background-color: #f8bbd0;
+}
+
+#backButton:hover {
+    background-color: #f48fb1;
+}
+
+#deleteButton {
+    background-color: #f8bbd0;
+}
+
+#deleteButton:hover {
+    background-color: #f48fb1;
+}
+
+#infoText {
+    background-color: white;
+    color: #2c3e50;
+    border: 2px solid #e3f0fd;
+    border-radius: 15px;
+}
+
+#infoLabel {
+    color: #2c6474;
+    font-weight: bold;
+}
+
+QLabel {
+    color: #4a627a;
+}

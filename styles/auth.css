@@ -1,0 +1,53 @@
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #f7f0f0,
+                                stop:1 #f0e8e8);
+}
+
+QLineEdit {
+    background-color: #fff9f9;
+    border: 2px solid #e6d5d5;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 18px;
+    color: #5a4a4a;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+QLineEdit:focus {
+    border-color: #c9a9a9;
+    background-color: #ffffff;
+}
+
+QPushButton {
+    background-color: #e8d5d5;
+    color: #6b5b5b;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+QPushButton:hover {
+    background-color: #dbbebe;
+    color: #4a3a3a;
+}
+
+QPushButton:pressed {
+    background-color: #cca9a9;
+    color: white;
+}
+
+QLabel {
+    color: #8b7a7a;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+QMainWindow::title {
+    background-color: #f7f0f0;
+    color: #8b7a7a;
+}
